@@ -3,13 +3,13 @@ package app;
 /**
  * ProfessorF3
  */
-public class ProfessorF3 {
+public class ProfessorF3 extends PessoaMae {
     private String especialidade;
     private float salario;
 
 
-    public void receberAum(){
-
+    public void receberAum(float aum){
+        this.salario += aum;
     }
 
 

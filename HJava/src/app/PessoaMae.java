@@ -4,12 +4,12 @@ package app;
  * PessoaMae
  */
 public class PessoaMae { //SUPERCLASS - CLASSE MÃE
-
-    private String nome;
+  //os atributos e métodos desta classe podem ser utilizados pelas subclasses!
+    private String nome; 
     private int idade;
     private String sexo;
 
-    
+
     public void fazerAniver(){
         this.idade ++;
     }
@@ -38,4 +38,19 @@ public class PessoaMae { //SUPERCLASS - CLASSE MÃE
     public void setSexo(String sexo) {
         this.sexo = sexo;
     }
+
+
+
+    //método toString
+
+    @Override
+    public String toString() {
+        return "{" +
+            " nome='" + getNome() + "'" +
+            ", idade='" + getIdade() + "'" +
+            ", sexo='" + getSexo() + "'" + 
+            "}";
+    }
+
+
 }

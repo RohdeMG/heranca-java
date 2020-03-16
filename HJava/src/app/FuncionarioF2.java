@@ -8,8 +8,8 @@ public class FuncionarioF2 extends PessoaMae {
     private boolean trabalhando;
 
 
-    public void mudarTrabalho(){
-
+    public void mudarTrabalho(String setor){
+        this.setor = setor;
     }
 
 
