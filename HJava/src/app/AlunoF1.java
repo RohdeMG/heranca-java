@@ -11,7 +11,7 @@ public class AlunoF1 extends PessoaMae {
  //IJASIJAISIJS
 
      public void cancelarMatricula(){
-
+        System.out.println("Matrícula cancelada");
      }
 
      //Métodos Especiais
