@@ -9,7 +9,7 @@ public class PessoaMae { //SUPERCLASS - CLASSE MÃE
     private int idade;
     private String sexo;
 
-
+    
     public void fazerAniver(){
         this.idade ++;
     }
