@@ -1,0 +1,19 @@
+Tipos de Herança
+
+
+Herança de implementação
+Herança para diferença
+
+sobreescrever um método que já existe em uma classe @Overrride
+
+
+
+
+
+Classe abstrata - não pode gerar objetos
+
+Método Abstrato - método declaro mas não implementado na sua progenitora
+
+Método Final - não pode ser herdada, ou seja é uma classe folha (ultima classe da árvore)
+
+Método Final - método obrigatoriamente herdado
